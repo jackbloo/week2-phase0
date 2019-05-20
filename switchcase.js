@@ -50,5 +50,7 @@ switch (bulan) {
     case 12:
         console.log(tanggal + ' Desember ' + tahun);
     break;
+    default:
+        console.log('Sorry please insert number for the month');
 
 }
