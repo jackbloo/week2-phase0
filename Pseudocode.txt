@@ -1,0 +1,41 @@
+1.  NEWTON SECOND LAW PSEUDOCODE
+
+STORE F with any number
+STORE m with 600
+STORE a with 2
+MULTIPLY m and a
+F EQUALS to RESULT
+DISPLAY F
+
+2. TAHUN KABISAT PSEUDOCODE
+
+STORE thisYear with any number
+IF thisYear MOD by 4 is equal with 0 AND Year  MOD by 100 is not equal with 0 OR equal with 0  AND MOD by 400 is equal with 0 THEN
+	DISPLAY TAHUN KABISAT
+ELSE
+	DISPLAY BUKAN TAHUN KABISAT
+END IF
+
+3. LAUNDRY DAY PSEUDOCODE
+
+STORE foxieCloth with 20
+STORE i with 0
+FOR foxieCloth > i
+	DISPLAY Masukkan Baju ke Mesin Cuci
+	INCREMENT i by 1
+END FOR
+DISPLAY Nyalakan Mesin Cuci
+
+4. PERIKSA KUKU PSEUDOCODE
+
+STORE numMurid with 40
+STORE kukuPanjang with true
+STORE i with 0
+WHILE i less than 40 THEN
+	IF kukuPanjang === true THEN
+		DISPLAY Guru Akan Menghukum Siswa/Siswi Tersebut
+	ELSE
+		DISPLAY Guru Akan Memuji Siswa/Siswi Tersebut
+	ENDIF
+	INCREMENT i by 1
+ENDWHILE
