@@ -1,11 +1,20 @@
 function xo(str) {
-    if (str.match(/x/gi).length >= str.match(/o/gi).length){ 
-        return true;
-    } else if (str.match(/x/gi).length < str.match(/o/gi).length){
-      return false;
-    }
-    }
-        
+  var x = 0
+  var o = 0
+  for (var i = 0; i < str.length ; i++){
+    if (str[i] === 'o'){
+    o += 1;
+  } else if (str[i] === 'x'){
+    x += 1;
+  } 
+}
+if (x === o){
+  return true
+} else {
+  return false
+}
+
+  }
     // TEST CASES
     console.log(xo('xoxoxo')); // true
     console.log(xo('oxooxo')); // false
